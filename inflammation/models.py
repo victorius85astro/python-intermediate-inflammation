@@ -36,11 +36,11 @@ def daily_max(data):
     return np.max(data, axis=0)
 
 
-def daily_min(data):
+def daily_min(data2):
     """Calculate the daily min of a 2d inflammation data array.
 
     :param data: 2d inflammation data array
     :returns: the daily min
     """
-    return np.min(data, axis=0)
+    return np.min(data2, axis=0)
 
